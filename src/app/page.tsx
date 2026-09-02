@@ -1,9 +1,14 @@
-import { Button } from "@/components/ui/button";
+﻿import { Navbar } from "@/components/layout/navbar";
+import { Hero } from "@/components/sections/hero";
 
 export default function Home() {
   return (
-    <main className="flex min-h-svh items-center justify-center">
-      <Button>View My Projects</Button>
-    </main>
+    <>
+      <Navbar />
+
+      <main>
+        <Hero />
+      </main>
+    </>
   );
 }
